@@ -1,43 +1,52 @@
-body {
-    background-color: #121212;
-    color: #f0f0f0;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 1rem;
-}
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 1rem;
+        }
 
-input[type="number"] {
-    background-color: #1f1f1f;
-    border: 1px solid #00ffc3;
-    color: #ffffff;
-}
+        input[type="number"] {
+            background-color: #1f1f1f;
+            border: 1px solid #00ffc3;
+            color: #ffffff;
+            font-weight: 500;
+        }
 
-input::placeholder {
-    color: #9efff6;
-}
+        input::placeholder {
+            color: #00ffd5;
+            opacity: 1;
+            font-weight: 600;
+        }
 
-button {
-    background-color: #00ffc3;
-    color: #121212;
-    border: none;
-    transition: background-color 0.3s;
-}
+        button {
+            background-color: #00ffc3;
+            color: #121212;
+            border: none;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 0.75rem;
+            box-shadow: 0 0 10px #00ffc3;
+        }
 
-button:hover {
-    background-color: #00bfa1;
-}
+        button:hover {
+            background-color: #00bfa1;
+            transform: scale(1.03);
+            box-shadow: 0 0 15px #00bfa1;
+        }
 
-#containerTasas, #containerCapital, #containerGanancia {
-    margin-bottom: 1.5rem;
-}
+        #containerTasas, #containerCapital, #containerGanancia {
+            margin-bottom: 1.5rem;
+        }
 
-#containerGanancia span {
-    color: #39ff14;
-    font-weight: bold;
-}
+        #containerGanancia span {
+            color: #39ff14;
+            font-weight: bold;
+        }
 
-@media (min-width: 576px) {
-    #containerTasas, #containerCapital, #containerGanancia {
-        max-width: 480px;
-        margin: auto;
-    }
-}
+        @media (min-width: 576px) {
+            #containerTasas, #containerCapital, #containerGanancia {
+                max-width: 480px;
+                margin: auto;
+            }
+        }
