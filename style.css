@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 1rem;
+}
+
+input[type="number"] {
+    background-color: #1f1f1f;
+    border: 1px solid #00ffc3;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #9efff6;
+}
+
+button {
+    background-color: #00ffc3;
+    color: #121212;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00bfa1;
+}
+
+#containerTasas, #containerCapital, #containerGanancia {
+    margin-bottom: 1.5rem;
+}
+
+#containerGanancia span {
+    color: #39ff14;
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+    #containerTasas, #containerCapital, #containerGanancia {
+        max-width: 480px;
+        margin: auto;
+    }
+}
